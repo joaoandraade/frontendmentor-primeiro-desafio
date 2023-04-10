@@ -1,0 +1,9 @@
+main {
+    min-width: 600px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main img {
+    width: 100%;
+}

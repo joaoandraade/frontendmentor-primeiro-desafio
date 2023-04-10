@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'made';
+    src: url('/src/fonte/madebold.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'made-normal';
+    src: url('/src/fonte/made-medium.otf') format('opentype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    padding: 25px 0px 10px 0px;
+    border-radius: 30px;
+    margin: auto;
+    font-family: made;
+    min-width: 450px;
+    max-width: 450px;
+}
+
+#baixo{
+    font-family: made-normal;
+    color: rgba(82, 82, 82, 0.733);
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+#referencias{
+    font-family: made-normal;
+    color: rgba(82, 82, 82, 0.733);
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.2em;
+}
+
+picture > img {
+    margin: auto;
+    border-radius: 15px;
+    display: block;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+article {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.alto {
+    font-size: 2em;
+    text-align: center;
+}
